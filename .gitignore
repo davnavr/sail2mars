@@ -1,2 +1,5 @@
 # cargo
 /target/
+
+# sail2mars
+*.asm
