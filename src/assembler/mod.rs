@@ -95,7 +95,7 @@ const ENTRY_POINT_EXIT: [Instr<'_>; 9] = [
     Instr::Syscall,
     // Print exit code
     Instr::Li(Reg::V0, MarsServiceNumber::PrintInteger as i32),
-    Instr::Move(Reg::A0, Reg::V0),
+    Instr::Move(Reg::A0, Reg::S0),
     Instr::Syscall,
     // Exit the program
     Instr::Li(Reg::V0, MarsServiceNumber::Exit as i32),
