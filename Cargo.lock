@@ -163,6 +163,7 @@ dependencies = [
  "sailar",
  "sailar_get",
  "thiserror",
+ "typed-arena",
 ]
 
 [[package]]

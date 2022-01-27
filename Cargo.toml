@@ -8,3 +8,4 @@ clap = { version = "3.0.7", features = ["derive"] }
 sailar = { git = "https://github.com/davnavr/SAILAR-lang" }
 sailar_get = { git = "https://github.com/davnavr/SAILAR-lang" }
 thiserror = "1.0.30"
+typed-arena = "2.0.1"
